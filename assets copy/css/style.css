@@ -219,3 +219,9 @@ body {
     border: 0 none;
   }
   
+  @media screen and (max width: 768px) {
+    body {
+      background-color: #4aaaa5;
+    }
+    
+  }
