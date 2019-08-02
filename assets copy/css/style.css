@@ -25,6 +25,7 @@ body {
   h1,
   h2,
   h3,
+  .project-links,
   p {
     margin-bottom: 20px;
   }
@@ -35,7 +36,10 @@ body {
   
   h1,
   h2,
-  h3 {
+  .project-links,
+  h3,
+  
+   {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
@@ -49,6 +53,7 @@ body {
   }
   
   h2,
+  .project-links,
   h3 {
     font-size: 22px;
   }
@@ -113,7 +118,7 @@ body {
     height: 50px;
   }
   
-  h3, h2 {
+  h3, .project-links, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
@@ -157,7 +162,7 @@ body {
     opacity: 0.8;
   }
   
-  .work h3 {
+  .work h3, .project-links {
     position: absolute;
     bottom: 20px;
     width: 100%;
